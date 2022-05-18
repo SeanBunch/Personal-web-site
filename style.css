@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #DCEBF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* border: 5px solid rgb(13, 219, 133); */
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+/* .self-portrait is the container for the image */
+.self-portrait {
+    flex-wrap: wrap;
+    display: flex;
+    /* border: 5px solid blue; */
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* .selfie is the image its self */
+.selfie {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: solid .5px #eaeaea;
+    box-shadow: 5px 4px 7px 2px #adadad77;
+}
+
+/* container for both the span and the nav bar */
+.span-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 25px;
+    width: 85%;
+    /* border: solid yellow 3px; */
+}
+
+.span-name {
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    font-weight: 900;
+    /* border: 2px solid red; */
+
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 5px solid red; */
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* for styling the links in nav bar */
+.navbar a {
+    font-family: 'Varela Round', sans-serif;
+    flex-wrap: wrap;
+    color: #5C6B73;
+    width: 100px;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: crimson;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #3a4850;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #91d1ee;
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(52, 163, 98);
+}
+
+hr {
+    color: black;
+    width: 86%;
+    margin-right: 9%;
+}
+
+/* container that holds the entire body */
+.wrap {
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    /* border: 5px solid black; */
+    width: 75%;
+    flex-direction: column;
+}
+
+/* container that holds the "I'm Sean" section */
+.intro {
+    display: flexbox;
+    background-color: #C0AE9B;
+    border-radius: 10px;
+    justify-content: center;
+    width: 50%;
+    min-width: 275px;
+    max-width: 500px;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 35px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.intro ol {
+    padding-left: 19px;
+    list-style-type: none;
+}
+
+
+/* container that holds the About Me section */
+.about-me {
+    /* border: red solid 5px; */
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #91d1ee;
+    border-radius: 10px;
+    justify-content: center;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 35px;
+    margin-top: 50px;
+    margin-left: 20%;
+    text-align: left;
+    min-width: 275px;
+    max-width: 500px;
+}
+
+.footer-wrap {
+    background-color: #d1d4ff;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    min-width: 275px;
+    max-width: 830px;
+    width: 50%;
+    border-radius: 10px;
+    /* border: solid 5px red; */
+}
+
+.contact-title {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* border: solid blue 2px; */
+}
+
+.contact-list {
+    /* border: solid yellow 2px; */
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    font-family: 'Varela Round', sans-serif;
+    margin: 5px;
+}
